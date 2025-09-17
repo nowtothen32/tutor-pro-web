@@ -183,17 +183,23 @@ body {
 
 /* Hero Section */
 .hero {
-    padding: 120px 20px 80px;
+    padding: 120px 0 80px;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     position: relative;
     color: white;
-    display: flex;
-    align-items: center;
     min-height: 90vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
     gap: 4rem;
-    overflow: hidden;
+    height: 100%;
 }
 
 .hero::before {
